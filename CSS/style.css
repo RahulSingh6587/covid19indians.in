@@ -1,0 +1,218 @@
+.custom {
+    border-collapse: collapse;
+    margin-left: 16px;
+    margin-top: 10px;
+    margin: auto;
+}
+
+.translate {
+    border-radius: 1px;
+}
+
+.header {
+    margin-left: 400px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+table tbody td .deltas {
+    margin-right: 0.25rem;
+    font-size: 11px !important;
+}
+
+/*#DynamicTable thead th:nth-child(odd) {
+    cursor: pointer;
+}*/
+
+
+table tbody td {
+    padding: 0.25rem;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    text-align: right;
+}
+
+    table tbody td:first-child {
+        text-align: left;
+        max-width: 10.5rem;
+        word-wrap: break-word;
+        text-transform: uppercase;
+    }
+
+table tbody td {
+    padding: 0.25rem;
+    font-size: 17px;
+    border-radius: 5px;
+    text-align: right;
+    color: rgb(0, 0, 0);
+}
+
+/* .headerAlign {
+    text-align: center;
+  } */
+
+.last-update {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-bottom: auto;
+    margin-top: 0.25rem;
+    color: black;
+}
+
+.colortake {
+    color: red;
+    text-align: left;
+    font-size: 50px;
+}
+
+.colortake1 {
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+}
+
+ul#horizontal-list {
+    list-style: none; /* Remove list bullets */
+    min-width: 696px;
+    list-style: none;
+    margin-left: 236px;
+    font-weight: bold;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+    ul#horizontal-list li {
+        display: inline;
+        list-style: none; /* Remove list bullets */
+    }
+
+
+
+.colortake2 {
+    text-align: center;
+    color: green;
+    font-size: 50px;
+}
+
+.colortake3 {
+    text-align: center;
+    color: grey;
+    font-size: 50px;
+}
+
+#lbl1 {
+    font-size: 2.5rem;
+      margin-left: 169px;
+    font-weight: bold;
+    /*font-family: Times New Roman*/
+}
+
+#lbl2 {
+    margin-left: 277px;
+    font-weight: bold;
+    /*font-family: Times New Roman;
+    font-size: 1.3rem;*/
+}
+
+#div_time {
+    margin-left: 15px;
+    font-weight: bold;
+    /*font-family: Times New Roman;
+    font-size: 1.3rem;*/
+    color: red;
+}
+
+.iconclass{
+    padding:5px;
+}
+@media only screen and (max-width: 600px) {
+    .iconclass {
+        padding: 0px;
+    }
+    ul#horizontal-list {
+        list-style: none; /* Remove list bullets */
+        margin-top: 5px;
+        min-width: 0px;
+        margin-left: -4px;
+        padding: 5px;
+        list-style: none;
+        font-weight: bold;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    }
+
+    th.State.header {
+        font-size: xx-small;
+    }
+
+    #DynamicTable tbody tr td {
+        font-size: small;
+    }
+
+    td.colortake {
+        font-size: x-large;
+    }
+
+    td.colortake1 {
+        font-size: x-large;
+    }
+
+    td.colortake2 {
+        font-size: x-large;
+    }
+
+    td.colortake3 {
+        font-size: x-large;
+    }
+
+    #lbl1 {
+        margin-left: 0px;
+    }
+
+    #div_time {
+        margin-left: 0px;
+    }
+
+    #lbl2 {
+        margin-left: 0px;
+    }
+
+    #DynamicTable tbody td:first-child {
+        font-size: x-small;
+    }
+
+    .colortake {
+        font-size: 45px;
+    }
+
+    .colortake {
+        font-size: 45px;
+    }
+
+    .colortake1 {
+        font-size: 45px;
+    }
+
+    .colortake2 {
+        font-size: 45px;
+    }
+
+    .colortake3 {
+        font-size: 45px;
+    }
+
+    .colortake4 {
+        font-size: 45px;
+    }
+}
+
+/* body {
+    background-image: url('Images/corona.jpg');
+  } */
+
+/*.footer {
+    position: relative;
+    left: 10px;
+    width: 100%;
+    background-color: #f0ffff;
+    text-align: center;
+}*/
